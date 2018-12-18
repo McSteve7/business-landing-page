@@ -1,0 +1,204 @@
+body{
+    background: rgba(224, 224, 224, 0.384);
+    margin-bottom: 100px;
+}
+.container{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+header{
+    background: linear-gradient(
+      35deg,
+      #73578d,
+      #ffcccc
+    );
+
+margin-top: 0;
+height: 100%;
+}
+#header-img{
+    height: 100px;
+    width: 60px;
+} 
+#nav-bar{
+    margin-bottom: 0;
+    
+}
+.nav-link{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-link li{
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    height: 100px;
+    margin-top: 10px;
+
+}
+.nav-link a  {
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+    display: block;
+    width: 1000px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main{
+    height: fit-content;
+    width: 100%;
+}
+img{
+    height: 800px;
+    width: 100%;
+}
+article{
+    background: #222629;
+    height: 200px;
+    width: 100%;
+    text-align:justify;
+    padding-top: 10%;
+    padding-bottom: 50%;
+    align-items: center;
+    text-align: center;
+    color: #3d7777;
+}
+#fieldset{
+    height: 350px;
+    width: 200px;
+    text-align: center;
+    background: rgb(229, 236, 241);
+    border-radius: 10px;
+    border-color: #ffcccc;
+    box-shadow: 50px;
+    display: inline;
+    background: url(image/images\ \(3\).png); 
+    margin-left: 30px;
+}
+h3{
+    background:gray ;
+      width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+form{
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 20px;
+    background:  gray;
+      padding-left: 35%;
+    padding-right: 50%;
+    margin-top: 20px;
+}
+#h4-tag{
+    float: left;
+}
+#text{
+    height: 30px;
+    width: 350px;
+    margin-top: 10px;
+}
+h4{
+    color: whitesmoke;
+    font-size: 20px;
+}
+#submit{
+    height: 50px;
+    width: 500px;
+}
+button{
+    margin-top: 150px;
+    height: 35px;
+    background: #79736fe5;
+      border-radius: 5px;
+    color: gray;
+}
+button a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: 100px;
+}
+footer{
+    background: #222629;
+    margin-top: 200px;
+    height: 200px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+footer li{
+    display: inline;
+    padding: 25px;
+}
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+footer a:hover{
+    background:gray;
+}
+
+@media only screen and (max-width: 850px){
+    fieldset{
+        display: inline;
+        text-align: center;
+    }
+.nav-link a{
+    display: block;
+    color: #222629;
+    margin-left: -480PX;
+    padding-right: 20PX;
+    margin-top: -10px;
+}
+.nav-link li{
+    float: right;
+}
+article{
+    margin-top: 30px; 
+    height: 500px;
+
+}
+#fieldset{
+    margin-left: -0px;
+}
+form{
+    height: 200px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 20px;
+    background: gray;
+    margin-top: 50px;
+}
+#h4-tag{
+    font-size: 15px;
+    float: left;
+}
+#submit{
+    height: 50px;
+    width: 300px;
+}
+#video{
+    padding-left: 10%;
+}
+img{
+    height: 500px;
+    width: 100%;
+}
+footer li{
+    display: inline;
+    padding: 20px;
+}
+footer a{
+    text-decoration: none;
+    font-size: 15px;
+    color: whitesmoke;
+}
+}
+
